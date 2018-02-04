@@ -1,0 +1,24 @@
+.Navbar {
+    padding: .5rem 0;
+    background-color: #F7F7F7;
+}
+
+.Navbar > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Navbar > ul > li {
+    list-style: none;
+}
+
+.Navbar a {
+    color: #196AAA;
+    padding: 0.425rem 1rem 0.65rem;
+    text-decoration: none;
+}
+
+.Navbar a.active {
+    border-bottom: 4px solid #196AAA;
+}

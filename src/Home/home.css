@@ -1,0 +1,14 @@
+.Home > section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home img {
+    max-width: 200px;
+}
+
+.Home .bio {
+    text-align: left;
+    padding-left: 1rem;
+}
