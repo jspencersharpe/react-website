@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Technologies from './Technologies/';
 import spencer from './spencer.jpg';
 import './home.css';
 
@@ -16,7 +15,6 @@ class Home extends Component {
                     <h4>I'm a Front-End Engineer at 247Sports, a subsidiary of CBS Interactive.</h4>
                 </div>
             </section>
-            <Technologies></Technologies>
         </div>
       );
     }
