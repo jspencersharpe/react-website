@@ -12,18 +12,18 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-     <div className="App">
+     <div className="app">
       <Header />
-      <section class="content">
+      <section className="content">
         <Switch>
           <Route exact path='/' component={Home}/>
-          <Route path='/about' component={About} /> 
-          <Route path='/code' component={Code} /> 
-          <Route path='/music' component={Music} /> 
+          <Route path='/about' component={About} />
+          <Route path='/code' component={Code} />
+          <Route path='/music' component={Music} />
         </Switch>
       </section>
       <Footer />
-     </div> 
+     </div>
     );
   }
 }

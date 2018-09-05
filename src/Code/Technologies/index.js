@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ImageLink from './ImageLink';
-
 import './technologies.css';
 
 class Technologies extends Component {
@@ -33,7 +32,7 @@ class Technologies extends Component {
             },
             {
               name: 'npm',
-              image_url: 'https://docs.npmjs.com/images/npm.svg',
+              image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/2000px-Npm-logo.svg.png',
               url: 'https://www.npmjs.com/'
             },
             {
@@ -68,16 +67,16 @@ class Technologies extends Component {
             }
           ];
     }
+
     render() {
-        
       return (
-        <div className="Technologies">
-            <ul>{ this.getTechnologies().map((item, index) => { 
-                return <li key={index}><ImageLink {...item}></ImageLink></li>}) }
+        <div className="technologies">
+            <ul>{ this.getTechnologies().map((item, index) => {
+                return <li key={index}><ImageLink {...item}></ImageLink></li>;}) }
             </ul>
         </div>
       );
     }
   }
-  
+
   export default Technologies;

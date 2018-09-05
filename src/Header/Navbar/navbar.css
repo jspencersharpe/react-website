@@ -1,24 +1,27 @@
-.Navbar {
-    padding: .5rem 0;
-    background-color: #F7F7F7;
+.navbar {
+  padding: .5rem 0;
+  background-color: #F7F7F7;
+  margin-top: 2rem;
 }
 
-.Navbar > ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.navbar>ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 0;
+  margin: 0;
 }
 
-.Navbar > ul > li {
-    list-style: none;
+.navbar>ul>li {
+  list-style: none;
 }
 
-.Navbar a {
-    color: #196AAA;
-    padding: 0.425rem 1rem 0.65rem;
-    text-decoration: none;
+.navbar a {
+  color: #196AAA;
+  padding: 0.425rem 1rem 0.65rem;
+  text-decoration: none;
 }
 
-.Navbar a.active {
-    border-bottom: 4px solid #196AAA;
+.active-route {
+  border-bottom: 4px solid #196AAA;
 }
