@@ -1,9 +1,24 @@
-ul {
+.footer {
+  background-color: #F7F7F7;
+  padding: .5rem 0;
+  margin: auto 0 0 0;
+}
+
+.footer ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-left: 0;
+  margin: 0;
 }
 
-ul > li {
+.footer ul > li {
   list-style-type: none;
+}
+
+.footer a {
+  color: #196AAA;
+  padding: 0.425rem 1rem 0.65rem;
+  text-decoration: none;
+  cursor: pointer;
 }

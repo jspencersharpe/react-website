@@ -1,12 +1,44 @@
-.App-logo {
+html, body, #root {
+  height: 100%;
+}
+
+.app {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 300px auto 50px;
+}
+
+.footer {
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.app-logo {
   max-width: 230px;
 }
 
-.App-header {
+.app-header {
   text-align: center;
-  padding: 20px;
 }
 
 .content {
   padding: 30px;
+}
+
+@media only screen and (min-width: 900px) {
+  .content {
+    padding: 30px 100px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .content {
+    padding: 30px 200px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .content {
+    padding: 30px 250px;
+  }
 }

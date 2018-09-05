@@ -1,17 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Navbar from './Navbar';
-
 import logo from '../logo.png';
 
-class Header extends Component {
-    render() {
-      return (
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <Navbar />
-        </header>
-      );
-    }
-  }
-  
+const Header = () =>{
+    return (
+      <header className="app-header">
+        <img src={logo} className="app-logo" alt="logo" />
+        <Navbar />
+      </header>
+    );
+  };
+
   export default Header;

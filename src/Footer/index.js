@@ -1,24 +1,22 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './footer.css';
 
-class Footer extends Component {
-    render() {
-      return (
-        <footer className="footer">
-          <ul>
-            <li>
-              <a href='https://twitter.com/jspencersharpe' target='_blank'>twitter</a>
-            </li>
-            <li>
-              <a href='https://github.com/jspencersharpe' target='_blank'>github</a>
-            </li>
-            <li>
-              <a href='https://linkedin.com/in/jspencersharpe' target='_blank'>linkedin</a>
-            </li>
-          </ul>
-        </footer>
-      );
-    }
-  }
-  
+const Footer = () => {
+    return (
+      <footer className="footer">
+        <ul>
+          <li>
+            <a href='https://twitter.com/jspencersharpe' rel="noopener noreferrer" target='_blank'>twitter</a>
+          </li>
+          <li>
+            <a href='https://github.com/jspencersharpe' rel="noopener noreferrer" target='_blank'>github</a>
+          </li>
+          <li>
+            <a href='https://linkedin.com/in/jspencersharpe' rel='noopener noreferrer' target='_blank'>linkedin</a>
+          </li>
+        </ul>
+      </footer>
+    );
+  };
+
   export default Footer;

@@ -1,13 +1,37 @@
-.Technologies > ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.technologies>ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding-left: 0;
 }
 
-.Technologies > ul > li {
-    list-style: none;
+@media only screen and (min-width: 700px) {
+  .technologies>ul {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
-.Technologies > ul > li > a img {
-    max-width: 150px;
-    max-height: 150px;
+@media only screen and (min-width: 1200px) {
+  .technologies>ul {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.technologies>ul>li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.technologies>ul>li>a img {
+  max-width: 75px;
+  max-height: 75px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .technologies>ul>li>a img {
+    max-width: 100px;
+    max-height: 100px;
+  }
 }
