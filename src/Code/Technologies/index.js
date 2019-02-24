@@ -11,14 +11,14 @@ class Technologies extends Component {
               url: 'https://www.javascript.com/'
             },
             {
-              name: 'Angular',
-              image_url: 'https://angular.io/assets/images/logos/angular/angular.png',
-              url: 'https://angular.io/'
-            },
-            {
                 name: 'React',
                 image_url: 'https://cdn.worldvectorlogo.com/logos/react.svg',
                 url: 'https://reactjs.org/'
+            },
+            {
+              name: 'Angular',
+              image_url: 'https://angular.io/assets/images/logos/angular/angular.png',
+              url: 'https://angular.io/'
             },
             {
               name: 'HTML5',
