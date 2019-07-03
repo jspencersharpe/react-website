@@ -12,8 +12,7 @@ const Home = () => {
             </div>
             <div className="bio">
                 <Heading value='Spencer Sharpe' />
-                <h3>Husband, sports fan, developer</h3>
-                <h4>Front-End Engineer at 247Sports, a subsidiary of CBS Interactive.</h4>
+                <h3>Husband, sports fan, software developer</h3>
             </div>
         </section>
     </div>
